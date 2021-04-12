@@ -1,0 +1,14 @@
+var inputVậtlý;
+var inputHóahọc;
+var inputSinhhọc;
+inputVậtlý = prompt('Nhập điểm môn Vật Lý');
+inputHóahọc = prompt('Nhập điểm môn Hóa Học');
+inputSinhhọc = prompt('Nhập điểm môn Sinh Học');
+var a= parseInt(inputVậtlý);
+var b= parseInt(inputHóahọc);
+var c= parseInt(inputSinhhọc);
+var d= (a+b+c)/3;
+var e= a+b+c;
+document.write('Điểm trung bình: ' + d);
+document.write('<br/>');
+document.writeln('Tổng điểm: ' +e);
