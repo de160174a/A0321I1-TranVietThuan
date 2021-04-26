@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var diembaikiemtra = parseInt(prompt("Nhap diem kiem tra"));
+    var diemgiuaky = parseInt(prompt("Nhap diem thi giua ky"));
+    var diemcuoiky = parseInt(prompt("Nhap diem cuoi ky"));
+    var avg = (diembaikiemtra+diemgiuaky*2+diemcuoiky*3)/6;
+    if (avg>=8 && avg == 10) {alert("Gioi")}
+    else if (avg>=6.5 && avg<8) {alert("Kha")}
+    else if (avg>=5 && avg<6.5) {alert("trung binh")}
+    else if (avg<5) {alert("yeu")}
+</script>
+</body>
+</html>
