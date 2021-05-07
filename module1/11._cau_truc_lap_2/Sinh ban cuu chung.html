@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let soul, i, j;
+    soul = "<table border='4' width='300' cellspacing='0' cellpadding='3'>";
+
+    i=2,
+    j=1;
+    while (i<10) {
+        soul = soul + "<tr>";
+        while (j < 10) {
+            soul = soul + "<td>" + i + "x" + j + "=" + i * j + "</td>";
+            j++;
+        }
+        i++;
+        soul = soul + "</tr>";
+    }
+    soul = soul + "</table>";
+
+</script>
+</body>
+</html>
