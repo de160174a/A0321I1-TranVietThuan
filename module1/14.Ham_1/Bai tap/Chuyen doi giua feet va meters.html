@@ -5,8 +5,28 @@
     <title>Title</title>
 </head>
 <body>
-<script>
-
+    <div>
+    <p><input type="text" id="inputNumFeet" oninput="changeFeetToMeter();"/>Feet</p>
+        </div>
+        <p style="margin-left: 70px">=</p>
+        <div>
+        <p><input type="text" id="inputNumMeter" oninput="changeMeterToFeet();"/>Meter</p>
+        </div>
+        <script>
+        function changeFeetToMeter() {
+            let a;
+            a = parseInt(document.getElementById("inputNumFeet").value);
+            let b;
+            b = a * 3.279;
+            document.getElementById("inputNumMeter").value = b;
+        }
+    function changeMeterToFeet  () {
+        let a;
+        a = parseInt(document.getElementById("inputNumMeter").value);
+        let b;
+        b = a * 0.305;
+        document.getElementById("inputNumFeet").value = b;
+    }
 </script>
 </body>
 </html>
