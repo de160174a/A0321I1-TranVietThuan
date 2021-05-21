@@ -29,11 +29,11 @@
         setLength(newLength){
             this.length=newLength;
         }
-        show() {
+        show(x,y,color) {
             let c=document.getElementById('myCanvas');
             let myCanvas=c.getContext("2d");
-            myCanvas.fillStyle="red";
-            myCanvas.fillRect(50,50,Length,width);
+            myCanvas.fillStyle=color;
+            myCanvas.fillRect(x,y,Length,width);
         }
     }
     let rectangle= new rectangle(200,100);
@@ -46,7 +46,7 @@
     rectangle.setWidth(50);
     let cv=rectangle.getPerireter();
     let st=rectangle.getArea();
-    document.getElementById('show1').innerHTML="area2: "+ st "; Perireter2: "+cv;
+    document.getElementById('show1').innerHTML="area2: "+ st +"; Perireter2: "+cv;
 
     function getRandomColor(){
         let red = getRandomHex();
