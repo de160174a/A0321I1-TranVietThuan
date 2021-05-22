@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x = prompt("Nhập tên ngôi sao: ");
+    let stars = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    let zodiac = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+    callStars(x);
+
+    function callStars(x) {
+        let check = true;
+        for (i = 0; i < stars.length; i++) {
+            if (x == stars[i]) {
+                alert("Tên chòm sao chứa ngôi sao là: " + zodiac[i]);
+                check = false;
+                break;
+            }
+        }
+        if (check) {
+            alert("Không tìm thấy tên chòm sao chứa ngôi sao bạn nhập, hãy thử tên khác!");
+        }
+    }
+</body>
+</html>
