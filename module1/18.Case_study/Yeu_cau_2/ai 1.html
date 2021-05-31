@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function check() {
+        let vat;
+        let yourSalary = parseInt(document.getElementById("salary").value);
+        let netSalary;
+        if (yourSalary >= 15000000) {
+            netSalary = yourSalary - (yourSalary * 0.2);
+            document.getElementById("hienThi").innerHTML =
+                "Mức lương thực nhận sau khi trừ đi 20% thuế thu nhập tương ứng là: " + netSalary + " VND";
+        }
+        if (yourSalary > 7000000 && yourSalary < 15000000) {
+            netSalary = yourSalary - (yourSalary * 0.1);
+            document.getElementById("hienThi").innerHTML =
+                "Mức lương thực nhận sau khi trừ đi 10% thuế thu nhập tương ứng là: " + netSalary + " VND";
+        }
+        if (yourSalary <= 7000000) {
+            netSalary = yourSalary - (yourSalary * 0.05);
+            document.getElementById("hienThi").innerHTML =
+                "Mức lương thực nhận sau khi trừ đi 5% thuế thu nhập tương ứng là: " + netSalary + " VND";
+        }
+    }
+</script>
+</body>
+</html>
