@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Bài 1</title>
 </head>
 <body>
 <h3>Chuẩn hóa xâu ký tự</h3>
@@ -22,6 +22,7 @@
 </label>
 <p style="color:saddlebrown " id="display2"><b></b></p>
 <script>
+
     function titleCase() {
         let str = document.getElementById("string").value;
         str = str.toLowerCase().replace('  ', ' ');
@@ -48,6 +49,9 @@
         document.getElementById("display2").innerHTML = "Kết quả: " + "<br>" + "Chuỗi ký tự trước khi chuẩn hóa: " + str + "<br/>" +
             "Chuỗi ký tự sau khi chuẩn hóa: " + splitStr.join(" ") + "<br/>" + "Từ dài nhất trong xâu là: " + word;
     }
+
+
+
 </script>
 </body>
 </html>
