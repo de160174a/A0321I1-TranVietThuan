@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+        let n = parseInt(prompt("Nhap so nguyen duong:"));
+        let count =0;
+        let i = 1;
+        let S = 0;
+        while(i < n)
+        {
+            if(n % i == 0)
+            {
+                S = S + i;
+            }
+            i++;
+        }
+        if(S == n){
+            alert("la so hoan hao");
+
+
+        }else {
+            alert("khong phai la so hoan hao");
+        }
+
+
+</script>
+</body>
+</html>
