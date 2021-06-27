@@ -1,4 +1,4 @@
-package Thuc_hanh;
+package _2_Vong_lap_trong_java.Thuc_hanh;
 import java.util.Scanner;
 
 public class UngDungTinhTienLaiChoVay {

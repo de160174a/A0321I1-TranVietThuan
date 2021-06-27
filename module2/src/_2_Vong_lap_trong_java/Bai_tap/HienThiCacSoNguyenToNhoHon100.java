@@ -1,4 +1,4 @@
-package Bai_tap;
+package _2_Vong_lap_trong_java.Bai_tap;
 
 public class HienThiCacSoNguyenToNhoHon100 {
     static private boolean ktNguyenTo(int x){
