@@ -1,5 +1,5 @@
 package _4_Lop_va_doi_tuong_trong_java.Bai_tap;
-
+ 
 public class Fan {
     static final int SLOW = 1;
     static final int MEDIUM = 2;
