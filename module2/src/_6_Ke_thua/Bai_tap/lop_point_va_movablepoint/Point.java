@@ -44,3 +44,4 @@ package _6_Ke_thua.Bai_tap.lop_point_va_movablepoint;
             return "(" + x + "," + y + ")";
         }
     }
+    
