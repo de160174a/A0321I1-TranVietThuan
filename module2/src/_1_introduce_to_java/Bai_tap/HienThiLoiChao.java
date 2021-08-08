@@ -5,6 +5,6 @@ public class HienThiLoiChao {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter the name: ");
     String name = sc.nextLine();
-    System.out.println("Hello: " + name);
+    System.out.println("Good night " + name);
 }
 }
